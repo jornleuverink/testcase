@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Toggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background-standaard">
+    <nav class="nav">
+        <div class="nav_button" onmouseover="nav_open()"></div>
+        <ul onmouseover="nav_close()">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over ons</a></li>
+            <li><a href="#">Gallerij</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul> 
+    </nav>
+    <aside class="side">
+        <ul>
+            <li><span>Achtergrondkleur:</span></li>
+            <li><a id="kleur0" class="kleur0" href="#">- Standaard</a></li>
+            <li><a id="kleur1" class="kleur1" href="#">- Druifblauw</a></li>
+            <li><a id="kleur2" class="kleur2" href="#">- Donkerbruin</a></li>
+            <li><a id="kleur3" class="kleur3" href="#">- Lichtbruin</a></li>
+            <li><a id="kleur4" class="kleur4" href="#">- Zacht oranje</a></li>
+            <li><a id="kleur5" class="kleur5" href="#">- Fel oranje</a></li>
+        </ul>
+    </aside>
+    <main onmouseover="nav_close()">
+        <img src="nature.jpg" class="image">
+        <p id="text">Achtergrondkleur: <mark>[Standaard]</mark></p>
+        <p> Druk op toets <mark>[1]</mark>, <mark>[2]</mark>, <mark>[3]</mark>, <mark>[4]</mark>, <mark>[5]</mark> of <mark>[6]</mark> om de achtergrondkleur te wijzigen!</p>
+    </main>
+</body>
+
+</html>

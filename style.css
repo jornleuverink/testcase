@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.image {
+    padding: 120px 120px 5px 120px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.nav_button {
+    width: 60px;
+    height: 100%;
+    background-color: #4B3E76ff;
+    background-image: url(hamburger_menu.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.nav_button:hover {
+    opacity: 0.7;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.nav ul li {
+    list-style: none;
+    line-height: 60px;
+}
+
+.nav ul li a{
+    display: block;
+    height: 100%;
+    padding: 0 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.side {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    background-color: #1b1b1b;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+.side ul {
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.side ul li {
+    line-height: 30px;
+    list-style: none;
+}
+
+.side ul li span, .side ul li a {
+    display: block;
+    height: 30px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.side ul li span {
+    color: white;
+}
+
+.side ul li a:hover {
+    background-color: #333;
+}
+
+p {
+    padding-left: 120px;
+    padding-bottom: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+main {
+    height: 100vh;
+}
+
+mark { 
+    background-color: yellow;
+    color: black;
+  }
+
+.kleur0 {
+    color: rgb(207, 207, 207);
+}
+
+.kleur1 {
+    color: #4B3E76ff;
+}
+
+.kleur2 {
+    color: #6D4812ff;
+}
+
+.kleur3 {
+    color: #895814ff;
+}
+
+.kleur4 {
+    color: #C46514ff;
+}
+
+.kleur5 {
+    color: #F39409ff;
+}
+
+.background-standaard {
+    background-color: rgb(236, 236, 236);
+}
+
+.background-druifblauw {
+    background-color: #4B3E76ff;
+}
+
+.background-donkerbruin {
+    background-color: #6D4812ff;
+}
+
+.background-lichtbruin {
+    background-color: #895814ff;
+}
+
+.background-zachtoranje {
+    background-color: #C46514ff;
+}
+
+.background-feloranje {
+    background-color: #F39409ff;
+}
